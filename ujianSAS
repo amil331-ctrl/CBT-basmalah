@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Web Saya</title>
+  <style>
+    /* Menghilangkan margin dan scrollbar ganda agar tampilan penuh */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Ganti URL di bawah ini dengan URL Web App dari Google Apps Script -->
+  <iframe src="https://script.google.com/macros/s/AKfycbzAxKkI5hPcAqqOfMVHgkSA2CdpysfQSlm4pc9-MApSqXELRu_UrWSyc7ygWhALiQ7tCw/exec"></iframe>
+</body>
+</html>
